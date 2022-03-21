@@ -1,0 +1,158 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Gruppo", monospace;
+  font-size: 15px;
+  min-height: 1000px;
+  background-image: url("https://i.pinimg.com/originals/03/87/ef/0387ef0acdf21d21eaa8f2302608c183.jpg");
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #1d1b6a;
+  margin: 0 0 20px;
+}
+
+.page-subtitle {
+  color: #3d4540;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+h1 {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 35px;
+  color: #1d1b6a;
+}
+
+th,
+tr,
+td {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 15px;
+  border: solid 1px black;
+  color: black;
+}
+tbody {
+  background: #e4eea4;
+}
+
+.add {
+  font-family: verdana;
+  font-weight: bold;
+  color: #1d1b6a !important;
+  font-size: 10px;
+  text-shadow: 1px 1px 0px #d89ede;
+  box-shadow: 1px 1px 1px #dff989;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 4px outset #12120a;
+  background: #e4eea4;
+  background: linear-gradient(to top, #e4eea4, #cfcf70);
+}
+.add:hover {
+  color: #fffce6 !important;
+  background: #a1cf53;
+  background: linear-gradient(to top, #a1cf53, #83ff45);
+}
+
+.reset {
+  font-family: verdana;
+  font-weight: bold;
+  color: #3d4540 !important;
+  font-size: 12px;
+  text-shadow: 1px 1px 0px #d5ded9;
+  box-shadow: 1px 1px 1px #dff989;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 4px outset #12120a;
+  background: #ecd6ee;
+}
+.reset:hover {
+  color: #fffce6 !important;
+  background: #ff0324;
+}
+
+.zerar {
+  font-family: verdana;
+  font-weight: bold;
+  color: #3d4540 !important;
+  font-size: 12px;
+  text-shadow: 1px 1px 0px #d5ded9;
+  box-shadow: 1px 1px 1px #dff989;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 4px outset #12120a;
+  background: #ecd6ee;
+}
+.zerar:hover {
+  color: #fffce6 !important;
+  background: #ff0324;
+}
+
+.vencedor {
+  font-family: verdana;
+  font-weight: bold;
+  color: #1d1b6a !important;
+  font-size: 15px;
+  text-shadow: 1px 1px 0px #d89ede;
+  box-shadow: 1px 1px 1px #dff989;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 4px outset #12120a;
+  background: #e4eea4;
+  background: linear-gradient(to top, #e4eea4, #cfcf70);
+}
+.vencedor:hover {
+  color: #fffce6 !important;
+  background: #a1cf53;
+  background: linear-gradient(to top, #a1cf53, #83ff45);
+}
+
+.imagemGif {
+  left: -20px;
+}
+.dif {
+  background: #eee;
+}
+.win {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background: #e4eea4;
+}
+
+winner {
+  font-family: verdana;
+  font-weight: bold;
+  color: #1d1b6a !important;
+  font-size: 15px;
+  background: #ecd6ee;
+}

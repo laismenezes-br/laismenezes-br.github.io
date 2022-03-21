@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+    rel="stylesheet"
+  />
+
+  <script
+    src="https://kit.fontawesome.com/067f1ddc73.js"
+    crossorigin="anonymous"
+  ></script>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>QUADRIBOL
+    <img src="https://entrelementos.com/wp-content/uploads/2020/07/Descubra-as-caracter%C3%ADsticas-das-casas-de-Hogwarts-entrelementos-1-1200x675.png" width="300" height="150" align="right"></img>
+    <section>
+      <input id="nomeDaEquipe" type="text" name="nomeEquipe" placeholder="Nome da equipe">
+      <button id="add" class=add type="submit" onClick="ADD()" align="rigt">ADICIONAR</button>
+    </section>
+
+  </h1>
+  </h2>
+  <button id="zerar" class="zerar" onClick="zerarCampeonato()" align="right">ZERAR CONTAGEM</button>
+  <button id="reset" class="reset" onClick="reset()" align="right">RESETAR</button>
+  </h2>
+  <h3>
+    <table style="width:100%">
+      <thead>
+        <tr class="dif">
+          <th>CASA</th>
+          <th>VITÓRIAS</th>
+          <th>EMPATES</th>
+          <th>DERROTAS</th>
+          <th>PONTOS</th>
+          <th colspan="3">AÇÕES</th>
+        </tr>
+      </thead>
+      <tbody id="tabelaJogadores">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td><button class="dif1" onClick="adicionarVitoria()">VITORIA</button></td>
+          <td><button class="dif1" onClick="adicionarEmpate()">EMPATE</button></td>
+          <td><button class="dif1" onClick="adicionarDerrota()">DERROTA</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </h3>
+  <h4>
+
+  </h4>
+  <iframe class="imagemGif" src="https://giphy.com/embed/3ohs828z8kal5XRBfy" frameBorder="0" class="giphy-embed" align="left"></iframe>
+  <button id="vencedor" class="vencedor" onClick="calculaVencedor()" align="center">VENCEDOR</button>
+  <div id="winner" class="winner"></div>
+  <div id="image"></div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
